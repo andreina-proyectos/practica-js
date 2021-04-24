@@ -1,0 +1,89 @@
+.general-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.general-wrapper h1 {
+  padding-bottom: 20px;
+}
+
+#spinner-wrapper {
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#spinner-wrapper p {
+  color: white;
+}
+
+.input-upload-wrapper {
+  margin-bottom: 20px;
+}
+
+input#file-upload-button {
+  border-radius: 5px;
+  border: 1px solid purple;
+  background-color: aquamarine !important;
+}
+
+#player-video {
+  border-radius: 8px;
+}
+
+.video-not-playing {
+  opacity: 0.5;
+}
+
+.player__controllers {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: none;
+  border: 1px solid;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+#volumen-range {
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: flex;
+}
+
+input[type="range"] {
+  background-color: #9a905d;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  color: #13bba4;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: none;
+}
